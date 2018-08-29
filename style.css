@@ -1086,6 +1086,7 @@ footer .web-logo img{
 #search .search-card-all .col-xl-4.col-md-6{
     display: flex;
    align-self: stretch;
+    padding: 0 2px;
 }
 
 
@@ -1499,6 +1500,7 @@ header.no-index .row.title{
     margin-top: 40px;
     padding-bottom: 100px;
     margin-bottom: 0;
+    width: 70%;
 }
 header.event-head {
     background: url("img/event-head.png");
@@ -1727,11 +1729,11 @@ font-family: "OpenSans-Regular_0";
     margin-bottom: 35px;
 }
 
-.page-event .content:last-child{
+.page-event .col-12:last-child{
     margin-bottom: 65px;
 }
 
-.page-event .content:first-child{
+.page-event .col-12:first-child{
     margin-top: 65px;
 }
 
@@ -1741,3 +1743,126 @@ font-family: "OpenSans-Regular_0";
 margin-left: 15px;
 }
 /*************************** EVENT DEV**************************/
+
+
+/*************************** ALEX PAGE **************************/
+
+header.alex-head{
+    background: url("img/alex-head.png");
+
+
+}
+
+.alex-page .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alex-page .photos {
+    margin-top: 37px;
+    width: max-content;
+    position: relative;
+    /*width:420px;*/
+    padding:38px 70px;
+    /*margin-bottom: 70px;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.alex-page .photos img:first-child{
+    padding-bottom: 25px;
+}
+
+
+.alex-page .photos img:last-of-type{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.alex-page .back-gray {
+    display: flex;
+    flex-direction: row;
+    background: #f8f8f8;
+    position: absolute;
+    height: 100%;
+    width:74%;
+    top: 0;
+
+    left: 0;
+    z-index: -1;
+    /*width:420px;*/
+}
+
+.alex-page .description {
+max-width: 515px;
+}
+
+.alex-page .description h3:before{
+    content: "";
+    height: 20px;
+    margin-right: 20px;
+    background: #fc5e62;
+    padding-right: 18px;
+}
+
+
+.alex-page .description h3{
+ margin-bottom: 30px;
+}
+
+.alex-page .description p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.alex-page #search p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+.alex-page .row.title{
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 55px;
+}
+
+
+.alex-page .video{
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    /*padding: 50px 85px;*/
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+}
+
+.alex-page .video:last-child{
+margin-bottom: 65px;
+}
+
+.video-row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video iframe {
+    position: absolute;
+    left: 0;
+    top:0;
+    padding: 5% 7.5%;
+
+}
+
+.alex-page .video:before{
+    content:"";
+    display: flex;
+    padding-bottom: 56.25%;
+}
+
+
+/*************************** ALEX PAGE **************************/
