@@ -1675,9 +1675,9 @@ header .feature .line {
     flex-wrap: wrap;
     /*margin: 0 4.8%;*/
     padding: 0 4.8%;
-
+    align-items: center;
     width: 100%;
-    align-content: stretch;
+    /*align-content: stretch;*/
 }
 
 /*.page-event .description .data:before{*/
@@ -1690,6 +1690,7 @@ header .feature .line {
 
 .page-event .description .data p{
 font-family: "OpenSans-Regular_0";
+    margin-bottom: 0;
 }
 
 .page-event .description .data div{
@@ -1710,10 +1711,11 @@ font-family: "OpenSans-Regular_0";
     align-self: right;
     margin-left: 3.63%;
 }
-.page-event .description .left h3{
+.page-event .description  h3{
     max-width: max-content;
     width: 100%;
-    margin-right: 4.8%;
+    margin-right: 4.5%;
+    font-size: 30px;
 
 }
 .page-event .content{
