@@ -20,6 +20,10 @@ section .row.title img{
    width: 253px;
 }
 
+label {
+    margin-bottom: 0;
+}
+
 #recalls .container{
     max-width: 1200px;
 
@@ -124,8 +128,7 @@ content:'▮ ';
 
 h3 {
     font-size: 24px;
-    font-family: "Open Sans";
-    font-weight: bold;
+    font-family: "OpenSans-Bold";
     color: #484850;
 }
 
@@ -459,9 +462,7 @@ footer .web-logo img{
 }
 
 #recalls .text{
-    font-family: "Open Sans";
-    font-weight: lighter;
-    font-style: italic;
+    font-family: "open_sanslight_italic";
     color: #505050;
 }
 
@@ -703,8 +704,8 @@ footer .web-logo img{
 
 #set p.eco span.eco-set {
     color:#616168;
-    font-family: "Open Sans";
-    font-weight: lighter;
+    font-family: "open_sanslight";
+    /*font-weight: lighter;*/
     font-size: 13px;
 }
 
@@ -1866,3 +1867,67 @@ margin-bottom: 65px;
 
 
 /*************************** ALEX PAGE **************************/
+
+
+/*************************** REVIEWS PAGE **************************/
+
+.reviews-page input[type="file"] {
+    display: none;
+}
+
+.reviews-page input[type="text"], .reviews-page input[type="email"]
+{
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    cursor: pointer;
+    height: 50px;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+    margin-top: 20px;
+}
+
+.reviews-page input[type="date"] {
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    cursor: pointer;
+    height: 50px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+    width: 120px;
+}
+
+
+.reviews-page input[type="date"]{
+    width: 18.04%;
+}
+.reviews-page input[type="date"]{
+    width: 23.29%;
+}
+
+.reviews-page input[type="date"]{
+    width: 23.30%;
+}
+
+.reviews-page input[type="email"]{
+    width: 24.32%;
+}
+
+
+/****/
+/*************************** REVIEWS PAGE **************************/
