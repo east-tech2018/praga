@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Font Awesome; /* Имя шрифта */
+    src: url(fonts/fa-regular-400_0.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: FaBrands-Regular; /* Имя шрифта */
+    src: url(fonts/FaBrands-Regular-400.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Neris-Black; /* Имя шрифта */
+    src: url(fonts/Neris-Black.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Neris-Light; /* Имя шрифта */
+    src: url(fonts/Neris-Light.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Neris-SemiBold; /* Имя шрифта */
+    src: url(fonts/Neris-SemiBold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: OpenSans-Bold; /* Имя шрифта */
+    src: url(fonts/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: OpenSans-Regular_0; /* Имя шрифта */
+    src: url(fonts/OpenSans-Regular_0.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Pe-icon-7-stroke_0; /* Имя шрифта */
+    src: url(fonts/Pe-icon-7-stroke_0.ttf); /* Путь к файлу со шрифтом */
+}
