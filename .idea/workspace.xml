@@ -2,83 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ac0cac-d0ef-4dca-b21a-8a314c0098e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/Apache License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/How_to_use_webfonts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/OpenSans-Bold-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/OpenSans-Bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/specimen_files/OpenSans-Bold-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bold_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/OpenSans-BoldItalic-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/specimen_files/OpenSans-BoldItalic-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/specimen_files/OpenSans-ExtraBold-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabold_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/OpenSans-ExtraBoldItalic-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/OpenSans-ExtraBoldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/OpenSans-ExtraBoldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/specimen_files/OpenSans-ExtraBoldItalic-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_extrabolditalic_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/OpenSans-Italic-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/OpenSans-Italic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/OpenSans-Italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/specimen_files/OpenSans-Italic-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_italic_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/OpenSans-Light-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/OpenSans-Light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/OpenSans-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/specimen_files/OpenSans-Light-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_light_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/OpenSans-LightItalic-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/OpenSans-LightItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/specimen_files/OpenSans-LightItalic-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_lightitalic_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/OpenSans-Regular-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/specimen_files/OpenSans-Regular-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_regular_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/OpenSans-Semibold-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/specimen_files/OpenSans-Semibold-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibold_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/specimen_files/OpenSans-SemiboldItalic-cleartype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/open-sans-fontfacekit/web fonts/opensans_semibolditalic_macroman/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/alex.html" afterPath="$PROJECT_DIR$/alex.html" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" afterPath="$PROJECT_DIR$/reviews.html" />
+      <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,95 +51,41 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="297" selection-start-line="297" selection-end-line="372" selection-end-column="7" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
-              <caret line="963" column="35" lean-forward="true" selection-start-line="963" selection-start-column="35" selection-end-line="963" selection-end-column="35" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="1914" lean-forward="true" selection-start-line="1914" selection-end-line="1914" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="reviews.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="106" column="58" lean-forward="true" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+            <state relative-caret-position="495">
+              <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
               <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="75" column="90" selection-start-line="75" selection-start-column="90" selection-end-line="75" selection-end-column="90" />
+            <state relative-caret-position="789">
+              <caret line="2078" column="16" lean-forward="false" selection-start-line="2078" selection-start-column="16" selection-end-line="2078" selection-end-column="16" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#31020#31124#0" expanded="false" />
+                <element signature="e#31180#31289#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="469">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,6 +105,8 @@
       <find>search-card-</find>
       <find>box-sh</find>
       <find>lighter</find>
+      <find>.place</find>
+      <find>.date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,8 +119,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/events.html" />
-        <option value="$PROJECT_DIR$/alex.html" />
         <option value="$PROJECT_DIR$/fonts.css" />
+        <option value="$PROJECT_DIR$/alex.html" />
         <option value="$PROJECT_DIR$/reviews.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -254,11 +132,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
-    <option name="y" value="68" />
-    <option name="width" value="1198" />
-    <option name="height" value="939" />
+    <option name="x" value="1241" />
+    <option name="width" value="1326" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -298,6 +179,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -309,6 +193,8 @@
       <option name="presentableId" value="Default" />
       <updated>1535533780847</updated>
       <workItem from="1535533781931" duration="12254000" />
+      <workItem from="1535561028986" duration="6280000" />
+      <workItem from="1535601798934" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="change event page">
       <created>1535534092587</created>
@@ -328,33 +214,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16357000" />
+    <option name="totallyTimeSpent" value="24778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="68" width="1198" height="939" extended-state="0" />
+    <frame x="1241" y="0" width="1326" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19097222" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.04697157" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32880098" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Remote Host" order="4" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,82 +252,108 @@
     <MESSAGE value="add alex page" />
     <option name="LAST_COMMIT_MESSAGE" value="add alex page" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media.css">
+    <entry file="file://$PROJECT_DIR$/reviews.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="2100">
+          <caret line="105" column="46" lean-forward="false" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="600">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37420">
+          <caret line="1871" column="18" lean-forward="false" selection-start-line="1871" selection-start-column="18" selection-end-line="1871" selection-end-column="18" />
+          <folding>
+            <element signature="e#31020#31124#0" expanded="false" />
+            <element signature="e#31180#31289#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="297" selection-start-line="297" selection-end-line="372" selection-end-column="7" />
+        <state relative-caret-position="840">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="372" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38280">
+          <caret line="1914" column="0" lean-forward="true" selection-start-line="1914" selection-start-column="0" selection-end-line="1914" selection-end-column="0" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#31020#31124#0" expanded="false" />
+            <element signature="e#31180#31289#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/media.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/events.html" />
+    <entry file="file://$PROJECT_DIR$/alex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="963" column="35" lean-forward="true" selection-start-line="963" selection-start-column="35" selection-end-line="963" selection-end-column="35" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="106" column="58" lean-forward="true" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+        <state relative-caret-position="495">
+          <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
           <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="75" column="90" selection-start-line="75" selection-start-column="90" selection-end-line="75" selection-end-column="90" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="1914" lean-forward="true" selection-start-line="1914" selection-end-line="1914" />
+        <state relative-caret-position="789">
+          <caret line="2078" column="16" lean-forward="false" selection-start-line="2078" selection-start-column="16" selection-end-line="2078" selection-end-column="16" />
+          <folding>
+            <element signature="e#31020#31124#0" expanded="false" />
+            <element signature="e#31180#31289#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
