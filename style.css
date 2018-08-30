@@ -1654,6 +1654,12 @@ header .feature .line {
 
 /*************************** EVENT DEV**************************/
 
+header.event-head{
+    position: relative;
+    overflow: hidden;
+    background: rgba(44,44,52,0.7);
+}
+
 .page-event img{
     width: 100%;
 }
@@ -1749,9 +1755,9 @@ margin-left: 15px;
 /*************************** ALEX PAGE **************************/
 
 header.alex-head{
-    background: url("img/alex-head.png");
-
-
+        position: relative;
+    overflow: hidden;
+    background: rgba(28,27,31,0.35);
 }
 
 .alex-page .container {
@@ -1864,6 +1870,28 @@ margin-bottom: 65px;
 
 /*************************** REVIEWS PAGE **************************/
 
+
+
+header img.back{
+    position: absolute;
+    left:50%;
+    top:50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+}
+
+.reviews-head {
+    position: relative;
+    overflow: hidden;
+    background: rgba(44,44,52,0.3);
+}
+
+.reviews-page .row {
+    padding: 0 15px;
+}
+
 .reviews-page .col-12{
     background: #f8f8f8;
     display: flex;
@@ -1963,7 +1991,7 @@ position: absolute;
     height: 100%;
     background: white;
     top:-9%;
-    right: -17%;
+    right: -13%;
     -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
@@ -1976,7 +2004,7 @@ position: absolute;
     right: -9%;
 }
 .reviews-page .col-12:nth-child(2n) .img .wrap{
-    left: -17%;
+    left: -13%;
 }
 .reviews-page .col-12:nth-child(2n) .img .wrap img{
     left: -9%;
@@ -1990,6 +2018,11 @@ position: absolute;
     flex-direction: row;
     justify-content: space-between;
 }
+.reviews-page .first-row input{
+ margin-top: 5px;
+}
+
+
 .reviews-page .form {
     flex-direction: column;
     background: white;
@@ -2050,6 +2083,7 @@ width: 100%;
     border: 1px solid #cecece;
     resize: none;
     height: 115px;
+    padding: 10px 15px;
 }
 
 .reviews-page .description label {
@@ -2058,6 +2092,35 @@ width: 100%;
     margin-bottom: 15px;
 }
 
+
+.reviews-page .pagination a{
+    width: 40px;
+    height: 40px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 65px;
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #818181;
+}
+
+
+.reviews-page .pagination a:hover,.reviews-page .pagination a.current{
+    background: #f25f63;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.reviews-page a.back,.reviews-page a.next,.reviews-page a.last{
+    font-family: "Font Awesome";
+}
 
 
 .reviews-page label#data{
@@ -2077,7 +2140,184 @@ width: 100%;
 }
 .reviews-page label#mess{
     width: 100%;
+    margin-top: 15px;
+}
+
+.reviews-page .review-buttons {
+    margin-top: 30px;
 }
 
 /****/
 /*************************** REVIEWS PAGE **************************/
+
+/*************************** ABOUT PAGE **************************/
+
+.about-head {
+    position: relative;
+    overflow: hidden;
+    background: rgba(44,44,52,0.2);
+}
+.about-page {
+    margin-top: 33px;
+}
+
+.about-page .photo {
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #e9e1de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-page .photo img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+.about-page span:before
+{
+   color: #888888;
+}
+
+
+.about-page span.mob-phone:before
+{
+    content: "";
+    font-family: "Pe-icon-7-stroke_0";
+
+    font-size: 18px;
+}
+
+.about-page span.phone:before
+{
+    content: "";
+    font-family: "FaBrands-Regular";
+
+    color: #88b216;
+    font-size: 20px;
+}
+
+.about-page span.viber:before
+{
+    content: "";
+    font-family: "FaBrands-Regular";
+
+    color: #9e4ca3;
+    font-size: 18px;
+}
+
+.about-page span.email:before
+{
+    content: "";
+    font-size: 18px;
+    font-family: "Pe-icon-7-stroke_0";
+
+}
+.about-page span.simple-phone:before
+{
+    content: "";
+    font-size: 18px;
+    font-family: "Pe-icon-7-stroke_0";
+}
+.about-page span.link:before
+{
+    content: "";
+    font-size: 18px;
+    font-family: "Pe-icon-7-stroke_0";
+}
+
+
+.about-page span {
+    font-size: 16px;
+    font-family: "OpenSans-Regular_0";
+    margin-right: 10px;
+    color: #3b3b3b;
+}
+
+
+
+
+.about-page .content
+{
+    margin: 0 53px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+.about-page .description
+{
+    max-width: 87%;
+    margin-left: 20px;
+}
+
+
+.about-page .description h4
+{
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+}
+
+.about-page .description .text
+{
+    color: #616168;
+    font-size: 15px;
+    font-family: "OpenSans-Regular_0";
+    margin-bottom: 0;
+}
+
+
+.about-page .manager {
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+.about-page .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-page .contacts p{
+    margin-bottom: 5px;
+}
+
+.about-page .address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 50px 20px 75px;
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.about-page .address p{
+margin-bottom: 15px;
+    font-family: OpenSans-Regular_0;
+    font-size: 16px;
+}
+.about-page .address .description{
+margin-left: 40px;
+    max-width: auto;
+    width: auto;
+}
+
+
+
+
+/*************************** ABOUT PAGE **************************/
