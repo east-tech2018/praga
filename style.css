@@ -2320,4 +2320,75 @@ margin-left: 40px;
 
 
 
+
+.about-page .photos {
+    margin-top: 37px;
+    width: max-content;
+    position: relative;
+    /*width:420px;*/
+    padding:38px 70px;
+    /*margin-bottom: 70px;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.about-page .photos img:first-child{
+    padding-bottom: 25px;
+}
+
+
+.about-page .photos img:last-of-type{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.about-page .back-gray {
+    display: flex;
+    flex-direction: row;
+    background: #f8f8f8;
+    position: absolute;
+    height: 100%;
+    width:74%;
+    top: 0;
+
+    left: 0;
+    z-index: -1;
+    /*width:420px;*/
+}
+
+.about-page .description {
+    max-width: 515px;
+}
+
+
+
+.about-page .description h3{
+    margin-bottom: 30px;
+}
+
+.about-page .description p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.about-page #search p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+.about-page .row.title{
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+
 /*************************** ABOUT PAGE **************************/
