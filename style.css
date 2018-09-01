@@ -858,19 +858,23 @@ span.date:before{
 }
 
 #search .checkboxes input[type=checkbox] + label:before,
-#search .sort input[type=checkbox] + label:before
+#search .sort input[type=checkbox] + label:before,
+.about-page input[type=checkbox] + label:before
 {
+    cursor: pointer;
     content:"";
+    display: inline-block;
     width: 18px;
     height: 18px;
     border-radius: 3px;
     border: 2px solid #dadadb;
     margin-right: 10px;
-    margin-top: -2px;
+    /*margin-top: -2px;*/
 }
 
 #search .checkboxes input[type=checkbox]:checked + label:before ,
-#search .sort input[type=checkbox]:checked + label:before
+#search .sort input[type=checkbox]:checked + label:before,
+.about-page .form input[type=checkbox]:checked + label:before
 {
     content:"+";
     font-size: 18px;
@@ -2422,6 +2426,104 @@ margin-top: 10px;
     margin-bottom: 30px;
 }
 
+.about-page  input[type="text"], .about-page input[type="email"]
+{
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
 
+
+.about-page textarea {
+    width: 100%;
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    resize: none;
+    height: 115px;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+.about-page .form ,.about-page .juridical-info{
+    padding: 70px;
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.about-page label{
+    width: 100%;
+}
+
+.about-page .form .top{
+    display: flex;
+    justify-content: space-between;
+
+    color: #262b35;
+}
+.about-page .form .top label{
+    width: 47.73%;
+}
+
+.about-page .captcha{
+    display: flex;
+    justify-content: space-between;
+    color: #7c7f83;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+.about-page .captcha input[type=text]{
+width: 32.5%;
+}
+
+.about-page .captcha input[type=submit]{
+    font-size: 20px;
+    font-family: OpenSans-Regular_0;
+    width: 30.5%;
+    height: 50px;
+}
+.about-page label[for=copy]{
+    display: flex;
+    font-family: "OpenSans-Regular_0";
+    color: #5b5b60;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.about-page .form input[type=checkbox] {
+    display: none;
+}
+
+.about-page .form .red-mark, .about-page .juridical-info .red-mark{
+    display: flex;
+    text-align: left;
+}
+.about-page .form h3 {
+    display: flex;
+    text-align: left;
+}
+
+.about-page .row.bottom {
+    margin-top: 64px;
+    margin-bottom: 76px;
+}
 
 /*************************** ABOUT PAGE **************************/
