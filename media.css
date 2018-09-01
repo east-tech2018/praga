@@ -173,6 +173,27 @@
     #search .buttons {
         display: flex;
     }
+
+   div.alex.container {
+        flex-direction: column;
+    }
+
+    div.alex.container .description{
+        width: 100%;
+        max-width: max-content;
+    }
+
+    div.alex.container .photos{
+        width: 100%;
+    }
+    .search-card{
+        width: 100%;
+    }
+    .search-card .description{
+        width: 100%;
+        max-width: 100%;
+    }
+
 }
 
 
