@@ -859,7 +859,8 @@ span.date:before{
 
 #search .checkboxes input[type=checkbox] + label:before,
 #search .sort input[type=checkbox] + label:before,
-.about-page input[type=checkbox] + label:before
+.about-page input[type=checkbox] + label:before,
+.cart-page input[type=checkbox] + label:before
 {
     cursor: pointer;
     content:"";
@@ -874,7 +875,8 @@ span.date:before{
 
 #search .checkboxes input[type=checkbox]:checked + label:before ,
 #search .sort input[type=checkbox]:checked + label:before,
-.about-page .form input[type=checkbox]:checked + label:before
+.about-page .form input[type=checkbox]:checked + label:before,
+.cart-page input[type=checkbox]:checked + label:before
 {
     content:"+";
     font-size: 18px;
@@ -2127,7 +2129,7 @@ width: 100%;
 }
 
 
-.reviews-page .pagination a{
+.pagination a{
     width: 40px;
     height: 40px;
     background: #f8f8f8;
@@ -2143,7 +2145,7 @@ width: 100%;
 }
 
 
-.reviews-page .pagination a:hover,.reviews-page .pagination a.current{
+.pagination a:hover,.pagination a.current{
     background: #f25f63;
     text-decoration: none;
     color: white;
@@ -2152,7 +2154,7 @@ width: 100%;
 
 
 
-.reviews-page a.back,.reviews-page a.next,.reviews-page a.last{
+.pagination a.back,.pagination a.next,.pagination a.last{
     font-family: "Font Awesome";
 }
 
@@ -2527,3 +2529,392 @@ width: 32.5%;
 }
 
 /*************************** ABOUT PAGE **************************/
+
+/*************************** CART PAGE **************************/
+
+
+header.cart-head {
+    position: relative;
+    overflow: hidden;
+    background: rgba(28,27,31,0.3);
+}
+
+.cart-page table{
+    width: 100%;
+    margin-top:48px;
+    margin-bottom: 35px;
+}
+
+.cart-page th {
+    background: #fc5e62;
+    color: white;
+    font-family: "OpenSans-Regular_0";
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.cart-page td,.cart-page th{
+padding: 12px 10px;
+    text-align: center;
+
+}
+
+.cart-page th.t1{
+    width: 20.44%;
+}
+.cart-page th.t2{
+    width: 14.6%;
+}
+.cart-page th.t3{
+    width: 13.5%;
+}
+.cart-page th.t4{
+    width: 16.79%;
+}
+.cart-page th.t5{
+    width: 19.7%;
+}
+.cart-page th.t6{
+    width: 9.49%;
+}
+
+.cart-page td.t7{
+   font-family: "Pe-icon-7-stroke";
+}
+
+.cart-page td {
+    border-top: 1px solid  #fc5e62;
+}
+.cart-page td button {
+    font-size: 18px;
+    padding:5px 20px ;
+    float: right;
+    margin-right: 25px;
+}
+span.like {
+    font-family: Pe-icon-7-stroke_0;
+    font-size: 18px;
+}
+
+.cart-page .delete {
+    border-bottom: 1px dotted black;
+    position: relative;
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+.cart-page .delete:hover{
+    border-bottom: 1px solid black;
+
+}
+
+.cart-page .delete:before{
+   content: "";
+    /*font-family: "Pe-icon-7-stroke";*/
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 8px;
+    left:-30px;
+    background:url("img/delete.png");
+    background-size: cover;
+}
+
+.cart-page .payment {
+
+
+    margin-bottom: 58px;
+    padding:0 15px;
+}
+.cart-page .payment .col-12 {
+    border-radius:10px;
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.cart-page .payment .wrap{
+max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.cart-page form {
+    margin-top:35px;
+    margin-bottom: 25px;
+}
+.cart-page textarea{
+    width: 100%;
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    resize: none;
+    height: 115px;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+.cart-page label {
+    width: 100%;
+}
+
+.cart-page  input[type="text"], .cart-page input[type="email"]
+, .cart-page input[type="tel"]
+{
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.cart-page .payment h4 {
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cart-page .top{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-page  input[type=checkbox]{
+    display: none;
+}
+
+.cart-page .accept{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cart-page .accept span {
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+}
+
+.cart-page .accept span:hover{
+    border-bottom: 1px solid black;
+}
+
+.cart-page input[type=checkbox] + label{
+    width: auto;
+}
+
+.cart-page .top label {
+    width:30.4%;
+}
+
+.cart-page .method {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cart-page .method p{
+margin-bottom: 0;
+    font-family: OpenSans-Regular_0;
+    color: #27272f;
+}
+
+.cart-page .method p:before{
+ content: "";
+background: url("img/bank-card.png");
+    width: 21px;
+    display: inline-block;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.cart-page .method span{
+font-size: 14px;
+    font-family: "OpenSans-Regular_0";
+    color: #96969b;
+    margin-left: 31px;
+}
+
+.cart-page .feature {
+margin-top: 20px;
+    margin-bottom: 30px;
+}
+.cart-page .feature p{
+    font-size:14px;
+    font-family: "OpenSans-Regular_0";
+    color: #96969b;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cart-page .feature p:before{
+    content: "";
+    display: inline-block;
+    font-size:20px;
+    color: #56b00d;
+    margin-right: 10px;
+    font-family: "Pe-icon-7-stroke_0";
+
+}
+
+.issue {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.cart-page .payment button{
+margin: 0 auto;
+}
+
+.paysystems p{
+margin-bottom: 0;
+    font-family: "OpenSans-Regular_0";
+    color:#5b5b60 ; margin-right: 32px;
+}
+
+.paysystems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*************************** CART PAGE **************************/
+
+
+/*************************** CHEHIA PAGE **************************/
+
+header.chehia-head{
+    position: relative;
+    overflow: hidden;
+    background: rgba(44,44,52,0.4);
+}
+
+.chehia-page form {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.chehia-page input[type=checkbox] {
+    display: none;
+}
+
+.chehia-page label {
+    width:12.04%;
+    color:#484850 ;
+    font-family: OpenSans-Regular_0;
+    font-size: 18px;
+    background: #f8f8f8;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.chehia-page input[type=checkbox]:checked + label {
+    color: white;
+    background: #fc5e62;
+}
+
+.chehia-page input[type=text] {
+    width: 28.76%;
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+}
+
+.chehia-page input[type=submit] {
+    width: 14.6%;
+    height: 50px;
+}
+
+.chehia-page .head h3 {
+    font-size: 30px;
+}
+
+.chehia-page .short-desc {
+    color: #616168;
+    font-size: 20px;
+    font-family: OpenSans-Regular_0;
+    margin-bottom: 30px;
+}
+.chehia-page .text {
+    color: #616168;
+    max-width: 1185px;
+    font-size: 15px;
+    font-family: OpenSans-Regular_0;
+    margin-bottom: 30px;
+}
+.chehia-page .img {
+position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.chehia-page .img:before{
+content: "";
+    display: block;
+    padding-bottom: 32.7%;
+}
+
+.chehia-page .img img{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.chehia-page .article {
+    margin-top: 50px;
+}
+.chehia-page .pagination {
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+}
+.chehia-page .pagination a {
+    margin-top: 35px;
+}
+.chehia-page button {
+    font-size: 18px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+.icon-right {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Pe-icon-7-stroke_0;
+}
+/*************************** CHEHIA PAGE **************************/
+
+
