@@ -2885,7 +2885,7 @@ content: "";
     padding-bottom: 32.7%;
 }
 
-.chehia-page .img img,.dev2-page .photo img{
+.chehia-page .img img,.dev2-page .content .photo img{
 
     position: absolute;
     min-width: 100%;
@@ -3015,14 +3015,14 @@ section.similar{
     color: #282828;
 }
 
-.dev2-page .photo{
+.dev2-page .content .photo{
     position: relative;
     overflow: hidden;
     margin-bottom: 40px;
     margin-top: 65px;
 }
 
-.dev2-page .photo:before{
+.dev2-page .content .photo:before{
     content: "";
     display: block;
     padding-bottom: 38.98%;
@@ -3216,6 +3216,16 @@ padding: 0;
 .dev2-page .manage div:last-of-type{
     display: flex;
     justify-content: flex-end;
+}
+
+.dev2-page .search-card .info {
+    border-bottom: none;
+}
+
+section.excursions {
+    background: #f8f8f8;
+    padding-top:1px;
+    padding-bottom: 30px;
 }
 
 /*************************** DEV 2 (EVENT) **************************/
