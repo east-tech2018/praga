@@ -64,7 +64,7 @@ $(document).ready(function () {
     });
 
 
-    $('.carousel-item').css('height',$('.carousel-item').innerWidth()/0.6965);
+    $('.card-item .carousel-item').css('height',$('.card-item .carousel-item').innerWidth()/0.6965);
 
     if(window.innerWidth<1270 && !$('header .menu-wrap .left').hasClass('logo-active')){
         $('header .menu-wrap .right .top').prepend( $('header .menu-wrap .left'));
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 
     $(window).resize(function () {
-        $('.carousel-item').css('height',$('.carousel-item').innerWidth()/0.6965);
+        $('.card-item .carousel-item').css('height',$('.card-item .carousel-item').innerWidth()/0.6965);
 
 
         // console.log($(window).innerWidth());

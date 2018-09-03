@@ -2855,17 +2855,17 @@ display: flex;
     height: 50px;
 }
 
-.chehia-page .head h3 {
+.article .head h3 {
     font-size: 30px;
 }
 
-.chehia-page .short-desc {
+.article .short-desc {
     color: #616168;
     font-size: 20px;
     font-family: OpenSans-Regular_0;
     margin-bottom: 30px;
 }
-.chehia-page .text {
+.article .text {
     color: #616168;
     max-width: 1185px;
     font-size: 15px;
@@ -2885,9 +2885,10 @@ content: "";
     padding-bottom: 32.7%;
 }
 
-.chehia-page .img img{
+.chehia-page .img img,.dev2-page .photo img{
+
     position: absolute;
-    width: 100%;
+    min-width: 100%;
     min-height: 100%;
     left: 50%;
     top:50%;
@@ -2910,11 +2911,311 @@ content: "";
     display: flex;
     align-items: center;
 }
-.icon-right {
+.icon-pe {
     margin-left: 10px;
     font-size: 18px;
     font-family: Pe-icon-7-stroke_0;
 }
 /*************************** CHEHIA PAGE **************************/
 
+/*************************** CHEHIA PAGE 2 **************************/
 
+.chehia-page-2 .img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.chehia-page-2 .img:before{
+    content: "";
+    display: block;
+    padding-bottom: 32.7%;
+}
+
+.chehia-page-2 .img img,.similar .photo img{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.chehia-page-2 .article{
+    margin-top: 70px;
+}
+.chehia-page-2 .article .text{
+    max-width: 100%;
+}
+
+.control.icon-pe{
+    font-size: 48px;
+}
+
+section.similar{
+    background:#f8f8f8;
+    padding-bottom: 95px;
+    padding-top: 60px;
+}
+
+.similar .content {
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.slider-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.similar .description {
+    background: white;
+    padding: 25px 35px;
+}
+.similar .description button{
+    background: white;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.similar .photo {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.similar .photo:before{
+    content: "";
+    display: block;
+    padding-bottom: 82.17%;
+}
+
+
+
+/*************************** CHEHIA PAGE 2 **************************/
+
+
+
+/*************************** DEV 2 (EVENT) **************************/
+
+.dev2-page h2 {
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #282828;
+}
+
+.dev2-page .photo{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+
+.dev2-page .photo:before{
+    content: "";
+    display: block;
+    padding-bottom: 38.98%;
+}
+
+.dev2-page .info{
+padding-bottom: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.dev2-page .info span{
+color: #3b3b3b;
+    font-size: 16px;
+    font-family: OpenSans-Regular_0;
+    padding-right: 22px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    border-right: 2px solid #e7e7e7;
+}
+
+.dev2-page .info span:last-of-type{
+    border-right: none;
+}
+
+.dev2-page .info span:first-of-type{
+    padding-left: 0;
+}
+
+
+.dev2-page .info span:before,.dev2-page .description .bottom span:before {
+    margin-right: 10px;
+    padding-right: 0;
+}
+
+.dev2-page .description .bottom {
+    padding:10px 19px;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.dev2-page .description .bottom .date {
+    display: flex;
+    align-items: center;
+}
+.soc span:before{
+    font-family: "Font Awesome 5 Brands Regular";
+    color: #fc5e62;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.soc span.vk:before{
+content: "";
+}
+.soc span.inst:before{
+    content: "";
+}
+.soc span.fb:before{
+    content: "";
+}
+
+
+
+.dev2-page .description .soc{
+    display: flex;
+    flex-direction: row;
+}
+
+.dev2-page .row.form {
+
+    max-width: 1170px;
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    margin:  0 auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 95px;
+}
+
+.dev2-page form {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 860px;
+    width: 100%;
+}
+.dev2-page form h2 {
+    text-align: center;
+}
+.dev2-page form h2 + div{
+   display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.dev2-page form h2 + div span{
+margin: 0 14px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.dev2-page form h2 + div span:before{
+padding-right: 0;
+    margin-right: 10px;
+}
+
+.dev2-page form label {
+    width: 100%;
+}
+
+.dev2-page form .top{
+   display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dev2-page form .top label{
+    width: 48.67%;
+}
+
+.dev2-page form input[type=text]{
+    font-size: 18px;
+    width: 100%;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+}
+.dev2-page form textarea{
+    width: 100%;
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    resize: none;
+    height: 115px;
+    padding: 10px 15px;
+}
+.dev2-page form .captcha{
+    display: flex;
+    justify-content: left;
+    margin-top: 35px;
+}
+
+.dev2-page form .captcha input[type=text]{
+ max-width: 280px;
+    margin: 0 15px;
+}
+.dev2-page form .captcha input[type=submit]{
+padding-left:30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.dev2-page .manage {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+
+
+.dev2-page .manage button{
+display: flex;
+    align-items: center;
+}
+
+.dev2-page .manage div{
+padding: 0;
+}
+
+.dev2-page .manage .all{
+    margin: 0 auto;
+}
+
+.dev2-page .manage div:last-of-type{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*************************** DEV 2 (EVENT) **************************/
