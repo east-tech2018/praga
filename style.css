@@ -1,8 +1,93 @@
-
 body   {
     max-width: 1920px;
     margin: 0 auto;
 }
+
+input[type=text],input[type=email],input[type=tel],input[type=date] {
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cecece;
+    position: relative;
+    width: 100%;
+}
+
+input[type=checkbox].full + label{
+    background: #f8f8f8;
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 200;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 5px;
+}
+
+input[type=checkbox]:checked.full + label{
+    color: white;
+    background: #fc5e62;
+}
+
+
+
+input[type=checkbox].semi-full + label{
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    background: #f8f8f8;
+    cursor: pointer;
+    font-size: 18px;
+    color: #484850;
+    border-radius: 5px;
+}
+input[type=checkbox].semi-full + label:before,input[type=checkbox].open + label:before{
+    cursor: pointer;
+    content:"";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 2px solid #dadadb;
+    margin-right: 10px;
+}
+
+input[type=checkbox]:checked.semi-full + label:before,input[type=checkbox]:checked.open + label:before{
+    cursor: pointer;
+    content:"+";
+
+    background: #fc5e62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+}
+
+
+input[type=checkbox].open + label{
+    font-size: 18px;
+    font-family: "OpenSans-Regular_0";
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+
 
 section .row.title{
     display: flex;
@@ -160,21 +245,16 @@ padding-top: 55px;
 }
 
 #subscribe .row input{
-    height: 54px;
-    border: none;
     border-radius: 10px;
-    outline:none;
 }
 #subscribe .row input[type=email]{
-    border: 1px solid #cecece;
     width: 58%;
     padding-left: 28px;
     float: left;
 }
 
 #subscribe .row input[type=submit]{
-background: #fc5e62;
-    color: white;
+    height: 55px;
     width: 41%;
     float: right;
 }
@@ -388,7 +468,6 @@ footer .web-logo img{
 
 }
 
-
 #recalls .wrap
 {
     background: url("img/back.png");
@@ -485,6 +564,7 @@ footer .web-logo img{
     min-width: 100%;
     min-height: 100%;
     left: 50%;
+    top:50%;
     position: absolute;
     transform: translate(-50%,-50%);
 
@@ -499,6 +579,7 @@ footer .web-logo img{
 .event .img:before{
     content: "";
     width: 100%;
+    display: flex;
     padding-bottom: 104.4%;
 }
 
@@ -826,8 +907,6 @@ span.date:before{
 #request input,#request textarea{
     padding:16px 20px;
     border-radius: 10px;
-    outline: none;
-    border: none;
     margin-top: 25px;
 }
 #request textarea{
@@ -837,13 +916,9 @@ span.date:before{
 }
 
 #request input[type=submit]{
-    background: #fc5e62;
-    color: white;
     margin-top: 40px;
     margin-bottom: 85px;
     font-size: 20px;
-    font-family: "Open Sans";
-    font-weight: lighter;
 }
 
 #request input {
@@ -855,55 +930,12 @@ span.date:before{
 }
 
 #search .checkboxes label {
-    display: flex;
-    align-items: center;
-    font-family: "Open Sans";
-    font-weight: lighter;
-    background:#f8f8f8;
-    font-size: 18px;
-    color: #484850;
     padding: 10px 19px;
-    border-radius: 5px;
     margin-left: 5px;
 }
 
 #search .checkboxes input[type=checkbox]{
     display: none;
-}
-
-#search .checkboxes input[type=checkbox] + label:before,
-#search .sort input[type=checkbox] + label:before,
-.about-page input[type=checkbox] + label:before,
-.cart-page input[type=checkbox] + label:before
-{
-    cursor: pointer;
-    content:"";
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 3px;
-    border: 2px solid #dadadb;
-    margin-right: 10px;
-    /*margin-top: -2px;*/
-}
-
-#search .checkboxes input[type=checkbox]:checked + label:before ,
-#search .sort input[type=checkbox]:checked + label:before,
-.about-page .form input[type=checkbox]:checked + label:before,
-.cart-page input[type=checkbox]:checked + label:before
-{
-    content:"+";
-    font-size: 18px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "FaBrands-Regular";
-    width: 18px;
-    height: 18px;
-    border-radius: 3px;
-    border:none;
-    background: #fc5e62;
 }
 
 
@@ -937,9 +969,6 @@ span.date:before{
     font-size: 18px;
     font-family: "OpenSans-Regular_0";
     font-weight: 300;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-left: 28px;
 }
 #search .sort input[type=checkbox] {
@@ -966,24 +995,8 @@ span.date:before{
 }
 
 .choose-place input[type=checkbox] + label {
-    background:#f8f8f8;
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    cursor: pointer;
-    height: 50px;
     padding: 0 1.3%;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
     margin-left: 15px;
-
-}
-
-.choose-place input[type=checkbox]:checked + label {
-    background:#fc5e62;
-    color: white;
 }
 
 .choose-place label{
@@ -997,39 +1010,19 @@ span.date:before{
 }
 
 .choose-place input[type=date] {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    cursor: pointer;
-    height: 50px;
     padding-left: 35px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
     margin-left: 15px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
+    height: 50px;
     width: 120px;
 
 }
 
 .choose-place input[type=text] {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    cursor: pointer;
+    width: 100%;
+    max-width: 252px;
     height: 50px;
     padding-left: 45px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
     margin-left: 15px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
     margin-top: 20px;
 }
 
@@ -1251,6 +1244,9 @@ font-size: 16px;
 .btn.red {
     background: #fc5e62;
     color: white;
+    /*font-family: "open_sanslight";*/
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 .btn.gray {
@@ -2090,37 +2086,12 @@ position: absolute;
 
 .reviews-page input[type="text"], .reviews-page input[type="email"]
 {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    height: 50px;
     padding-left: 15px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
-    width: 100%;
 }
 
 .reviews-page input[type="date"] {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    cursor: pointer;
-    height: 50px;
+
     padding-left: 15px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
-    width: 120px;
-    width: 100%;
 }
 
 .reviews-page textarea {
@@ -2444,19 +2415,7 @@ margin-top: 10px;
 
 .about-page  input[type="text"], .about-page input[type="email"]
 {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    height: 50px;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
-    width: 100%;
+    padding: 0 15px;
     margin-bottom: 15px;
     margin-top: 5px;
 }
@@ -2508,6 +2467,7 @@ margin-top: 10px;
 
 .about-page .captcha input[type=text]{
 width: 32.5%;
+    height: 50px;
 }
 
 .about-page .captcha input[type=submit]{
@@ -2679,18 +2639,7 @@ max-width: 1000px;
 .cart-page  input[type="text"], .cart-page input[type="email"]
 , .cart-page input[type="tel"]
 {
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    height: 50px;
     padding-left: 15px;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -2728,6 +2677,7 @@ max-width: 1000px;
 
 .cart-page input[type=checkbox] + label{
     width: auto;
+    align-items: flex-start;
 }
 
 .cart-page .top label {
@@ -2831,37 +2781,16 @@ display: flex;
     display: none;
 }
 
-.chehia-page label {
-    width:12.04%;
-    color:#484850 ;
-    font-family: OpenSans-Regular_0;
-    font-size: 18px;
-    background: #f8f8f8;
+section.chehia-page div.container  label {
+    width:12.04%; !important;
     height: 50px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-
-.chehia-page input[type=checkbox]:checked + label {
-    color: white;
-    background: #fc5e62;
 }
 
 .chehia-page input[type=text] {
     width: 28.76%;
-    font-size: 18px;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    height: 50px;
     padding-left: 15px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
+    height: 50px;
 }
 
 .chehia-page input[type=submit] {
@@ -3162,18 +3091,7 @@ padding-right: 0;
 }
 
 .dev2-page form input[type=text]{
-    font-size: 18px;
-    width: 100%;
-    font-family: "OpenSans-Regular_0";
-    font-weight: 200;
-    height: 50px;
     padding-left: 15px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cecece;
-    position: relative;
 }
 .dev2-page form textarea{
     width: 100%;
@@ -3195,6 +3113,7 @@ padding-right: 0;
 
 .dev2-page form .captcha input[type=text]{
  max-width: 280px;
+    height: 50px;
     margin: 0 15px;
 }
 .dev2-page form .captcha input[type=submit]{
