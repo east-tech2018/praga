@@ -131,7 +131,23 @@ $(document).ready(function () {
         else $('.menu-wrap .menu ul').removeClass('active');
     })
 
-    
+
+    /////////// INPUT ////////////
+
+
+    $('.number').find('span').click(function () {
+        if($(this).hasClass('arrow-left')) {
+            val = $(this).parent().find('input').val();
+             if(val>0){
+                 $(this).parent().find('input').val(parseInt(val)-1);
+             }
+        }
+        if($(this).hasClass('arrow-right')) {
+            val = $(this).parent().find('input').val();
+                $(this).parent().find('input').val(parseInt(val)+1);
+        }
+    });
+
     
     /* test1 */
 });
