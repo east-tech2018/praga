@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 1270px) {
+
+    .about-page .contacts {
+        flex-direction: column;
+    }
     header .menu-wrap .right .top {
         display: flex;
         flex-direction: row;
@@ -152,9 +156,40 @@
      width: 100%;margin-top: 10px;
     }
 
+.about-page .row.bottom .col-lg-6:first-child{
+    margin-bottom: 15px;
+
+}
+
+.about-page .contacts {
+    flex-direction: row;
+}
+
+    .about-page .contacts .right{
+       margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+
+    .reviews-page .review {
+        flex-direction: column-reverse;
+    }
+    .reviews-page .white{
+        display: none;
+    }
+
+    .reviews-page .img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .reviews-page .description {
+        margin-top: 0;
+    }
+
+
     #advantages .adv-card img {
         width: 100%;
     }
@@ -193,9 +228,29 @@
         width: 100%;
         max-width: 100%;
     }
-
+    .paysystems {
+        flex-direction: column;
+    }
+    .paysystems p{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
+@media screen and (max-width: 700px) {
+    .about-page .photo{
+        min-width: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .about-page .contacts {
+        flex-direction: column;
+    }
+
+    .about-page .contacts .right{
+        margin-left: 0;
+    }
+}
 
 @media screen and (max-width: 576px) {
     header .row.title p{
@@ -227,6 +282,15 @@
     .page-event .description .data{
         justify-content: center;
         padding-left: 0;
+    }
+
+    .slider-buttons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-buttons button{
+margin-bottom: 10px;
     }
 
 }
