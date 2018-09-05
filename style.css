@@ -1319,14 +1319,24 @@ content: '';
 
 
 header{
-    background: url("img/headback.png") no-repeat;
-
-}
-
-header .wrap{
     background: rgba(28,27,31,0.35);
     position: relative;
+    overflow: hidden;
 }
+
+header img.back{
+min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+/*header .wrap{*/
+   /**/
+/*}*/
 
 header .white {
     position: absolute;
@@ -1606,13 +1616,19 @@ header .feature .feature-card{
 
 header .feature .feature-card{
     padding: 0;
-    height: 457px;
     position: relative;
     cursor: pointer;
     z-index: 5;
 }
 
-header .feature .feature-card:hover:before{
+header .feature .feature-card:before{
+    content:"";
+    width: 100%;
+    padding-bottom: 134%;
+}
+
+
+header .feature .feature-card:hover:after{
     position: absolute;
     left: 0;
     top:0;
@@ -1622,10 +1638,12 @@ header .feature .feature-card:hover:before{
     background: rgba(242,95,99,0.7);
 }
 
-header .feature .feature-card:before{
+header .feature .feature-card:after{
     content: "";
 transition: 300ms;
 }
+
+
 header .feature .text-line {
     position: absolute;
     top:0;
@@ -1652,7 +1670,7 @@ header .feature .text-line:after{
     margin-top: 30px;
     margin-left: 15px;
     width: 3px;
-    height: 350px;
+    height: 390px;
     background: white;
 }
 
@@ -2083,12 +2101,17 @@ position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    margin: 0 auto;
+    padding: 0;
 }
 .reviews-page .first-row input{
  margin-top: 5px;
 }
 
-
+.first-row label{
+    padding: 0;
+}
 .reviews-page .form {
     flex-direction: column;
     background: white;
@@ -3295,10 +3318,10 @@ span.arrow-right:before{
     content: "";
     font-family: "simple_line_icons";
 }
-.paketnaya-page.order {
+.paketnaya-page.order ,.paketnaya-page.recalls{
     background: #f9f9f9;
 }
-.paketnaya-page.order .wrap{
+.paketnaya-page.order .wrap,.paketnaya-page .container-fluid{
     background: url("img/back.png");
 }
 .order form {
@@ -3395,6 +3418,7 @@ margin-left: 15px;
     width:85.4%;
     margin: 0 auto;
     display: flex;
+     position: relative;
     justify-content: space-between;
     padding: 0;
 }
@@ -3414,6 +3438,24 @@ content: "";
     color: #56b00d;font-size: 30px;
     margin-right: 12px;
 }
+
+.include .help {
+    position: absolute;
+    right: -25px;
+    top:-35px;
+    background: #fc5e62;
+    color: white;
+    font-family: "Font Awesome 5 Pro";
+    font-size: 19px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 
 .paketnaya-page .row.alert {
     font-size: 16px;
@@ -3441,19 +3483,30 @@ margin-right: 15px;
     flex-direction: row;
     padding: 60px 0;
     justify-content: space-between;
-
+    margin: -7% 0;
 }
 
 .paketnaya-page.how .container-fluid .photo{
-     width: 50%;
-     position: relative;
-     overflow: hidden;
-     border-radius: 5px;
-    margin: -7% 0;
- }
+      width: 50%;
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+
+  }
+
+.paketnaya-page.how .container-fluid.end .photo{
+    width: 59.4%;
+}
 
 .paketnaya-page.how .container-fluid .description{
     width: 43.79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paketnaya-page.how .container-fluid.end .description{
+    width: 36.5%;
 }
 
 .paketnaya-page.how .container-fluid .description p{
@@ -3467,6 +3520,12 @@ margin-right: 15px;
     padding-bottom: 72%;
 }
 
+.paketnaya-page.how .container-fluid.end .photo:before{
+    content: "";
+    display: flex;
+    padding-bottom: 60.7%;
+}
+
 .paketnaya-page.how .container-fluid .photo img{
 min-height: 100%;
     min-width: 100%;
@@ -3477,8 +3536,10 @@ min-height: 100%;
 }
 
 .paketnaya-page .slider {
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 40px;
+
 }
 .paketnaya-page .slider + p{
     padding: 0 15px;
@@ -3487,5 +3548,72 @@ min-height: 100%;
     font-family: "Open Sans";
 }
 
+.route {
+    padding: 0 15px;
+}
 
+.route-wrap {
+    width: 100%;
+    padding: 30px 2.55%;
+
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.1);
+}
+.need{
+    margin-bottom: 100px;
+}
+
+.need .circle {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: #f8f8f8;
+    position: relative;
+    margin: 0 auto;
+}
+.need .circle .wrap{
+    position: absolute;
+    left: 40%;
+    top:5px;
+}
+
+.need .circle .wrap p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: max-content;
+    color: #484850;
+    font-family: "Open Sans";
+    font-weight: bold;
+    bottom: -60px;
+}
+
+
+.approx p{
+    justify-content: center;
+    color: #616168;
+    font-family: "Open Sans";
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.approx span:before{
+    font-size: 24px;
+    color: #fc5e62;
+
+    margin-right: 10px;
+}
+
+.slider-container {
+    max-width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+
+.paketnaya-page.recalls .control{
+    color: #8a8a8a;
+}
 /***************************  paketnaya-page **************************/

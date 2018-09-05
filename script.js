@@ -31,9 +31,6 @@ $('.event-slider').slick({
 });
 
 
-
-
-
 $(document).ready(function () {
 
 
@@ -53,9 +50,41 @@ $(document).ready(function () {
         $(this).find('.buttons').css('display','');
     });
 
-    $(window).scroll(function () {
-        if($(window).scrollTop()>50) {
+    ////////HEADER///////
 
+    var lastScrollTop = 0;
+    $(window).scroll(function(){
+        var st = $(this).scrollTop();
+        if(st == 0) {
+            $('.row.head').css('width','');
+            $('.row.head').find('.menu-wrap').css({
+                'max-width':'1400px',
+                'position':'',
+                'width':'',
+                'background':''
+            });
+            $('.row.head').find('.col').css({
+                'max-width':'',
+                'margin':''
+            });
+            $('header .row.title').css('margin-top','');
+        }
+
+       else if (st > lastScrollTop){
+            $('.row.head').css('width','');
+            $('.row.head').find('.menu-wrap').css({
+                'max-width':'1400px',
+                'position':'',
+                'width':'',
+                'background':''
+            });
+            $('.row.head').find('.col').css({
+                'max-width':'',
+                'margin':''
+            });
+            $('header .row.title').css('margin-top','');
+
+        } else {
             $('.row.head').css('width','100%');
 
 
@@ -71,27 +100,26 @@ $(document).ready(function () {
                 'margin':'0 auto'
             });
             $('header .row.title').css('margin-top','180px');
+        }
+        lastScrollTop = st;
+    });
+
+
+    $(window).scroll(function () {
+        if($(window).scrollTop()>50) {
+
+
 
 
         }
         if($(window).scrollTop()<50) {
 
-            $('.row.head').css('width','');
 
-
-            $('.row.head').find('.menu-wrap').css({
-                'max-width':'1400px',
-                'position':'',
-                'width':'',
-                'background':''
-            });
-            $('.row.head').find('.col').css({
-                'max-width':'',
-                'margin':''
-            });
-            $('header .row.title').css('margin-top','');
         }
     });
+
+    ////////HEADER///////
+
 
 
     $('.card-item .carousel-item').css('height',$('.card-item .carousel-item').innerWidth()/0.6965);
